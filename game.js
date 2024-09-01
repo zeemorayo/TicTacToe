@@ -76,7 +76,7 @@ function pickTurn(first) {
  plFirst = first;
 }
 
-// </> Character Chooser
+// </> Choose Character
 function chrChoose(x) {
  for (var i = 0; i < chars.length; i++) {
   document.getElementById("char"+i).className = "charBtn";
